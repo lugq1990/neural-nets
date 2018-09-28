@@ -1,23 +1,12 @@
-# neural-nets
+# Welcome to neuralNets!
 
-Build advanced deep learning models in one line. Most quickest and easiest way to build deep learning models.
-
-## Getting Started
+### Build advanced deep learning models in one line. Most quickest and easiest way to build models.
 
 In recent years, most popular technology in AI is Deep Learning. It has showed it power in many domains, such as image, natual language processing, voice and so on. If you want to use AI models for your goals to be solved better, use deep learning! If you find many machine learning predicted not well, use deep learning!
 
 So deep learning can do lots of works, but how to use it? Thanks to Google teams, there is a great way to build models by using TensorFlow! This is based on TensorFlow to build many deep learning models, such as basic: # DNN, # RNN, # CNN, also with some advanced and more powerful model structure, such as: # ResidualNet, # DenseNet, # LSTM, # GRU and # Wide&Deep. And in machine learning domain, there are two main categories to be solved: Classification(binary, multiclass) and regression. They are all supported, you only need to change one parameter to rebuild your models. Great.
 
-### Installing
-
-Git remote repository or clone source code to disk, in neuralNets directory:
-
-```
-python setup.py install
-```
-
 ### OKay, show some examples how to use.
-
 ```python
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -33,20 +22,16 @@ test_acc = model.evaluate(xtest, ytest)
 pred = model.predict(xtest)
 model.plot_acc()
 ```
+
 ![acc_curve](image/acc.png?raw=true)
 ![loss_curve](image/loss.png?raw=true)
 
-## Contributing
-
-All contributions or issues are welcome!
-
-## Authors
-
-* **lugq** - *Initial work* - [lugq1990](https://github.com/lugq1990)
+See, all needed to do is just choose which deep learning model to be used, then you can just call it to train, evaluate, predict also plot accuracy and loss curve to find whether or not my model is overfitting or underfitting. You can decide how many layers to be used, how many units to be used, how structrue model to be used(residual or lstm). You can also see your model structure in your console.
 
 Easy?
 
 Any problems are welcome!
+
 
 ### Paper links:
 LSTM:https://www.isca-speech.org/archive/archive_papers/interspeech_2012/i12_0194.pdf
