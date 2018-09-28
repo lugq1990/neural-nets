@@ -1,4 +1,4 @@
-# neuralNets
+# neural-nets
 
 Build advanced deep learning models in one line. Most quickest and easiest way to build deep learning models.
 
