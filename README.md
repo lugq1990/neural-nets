@@ -36,6 +36,10 @@ model.plot_acc()
 ![acc_curve](image/acc.png?raw=true)
 ![loss_curve](image/loss.png?raw=true)
 
+Easy?
+
+Any problems are welcome!
+
 ## Contributing
 
 All contributions or issues are welcome!
@@ -43,10 +47,6 @@ All contributions or issues are welcome!
 ## Authors
 
 * **lugq** - *Initial work* - [lugq1990](https://github.com/lugq1990)
-
-Easy?
-
-Any problems are welcome!
 
 ### Paper links:
 LSTM:https://www.isca-speech.org/archive/archive_papers/interspeech_2012/i12_0194.pdf
